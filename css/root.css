@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #282828;
+    --secondary-color: #364935;
+    --dark-color: #000000;
+    --white-color: #ffffff;
+    --light-color: #383838;
+    --shadow-color: #c2c1c182;
+    --primary-font: 'roboto', sans-serif;
+    --secondary-font: 'Nunito', sans-serif;
+
+}

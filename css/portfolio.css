@@ -1,0 +1,242 @@
+@import url(style.css);
+@import url(dark.css);
+@import url(root.css);
+
+h2 {
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.theme-switch{
+    animation:none;
+}
+
+.header {
+    background-color: #364935;
+    padding: 20px;
+
+}
+
+.project-container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+
+}
+
+.project-nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.project-header {
+
+    background-color: var(--shadow-color);
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px;
+}
+
+.project-title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.project-title h1 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    margin-block: 12px;
+    padding: 0;
+}
+
+.project-description {
+    display: flex;
+    justify-content: center;
+
+}
+
+.project-details {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0;
+}
+
+.requirements {
+    padding: 16px;
+    width: 40%;
+}
+
+.requirements h2 {
+    margin-bottom: 12px;
+    text-decoration: underline;
+
+}
+
+.requirements p {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+.technologies {
+    padding: 16px;
+    width: 25%;
+}
+
+.technologies li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.technologies h2 {
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+.tools {
+    padding: 16px;
+    width: 25%;
+}
+
+.tools li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.tools h2 {
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+.project-images {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(76, 74, 74);
+}
+
+.left {
+    width: 35%;
+    padding: 12px;
+    margin-block: auto;
+}
+
+.left img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.right {
+    width: 50%;
+    padding: 12px;
+}
+
+.right img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.mobile {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 12%;
+    transform: translate(-50%, -50%);
+
+}
+
+.mobile img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-label {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 160px;
+    height: 140px;
+    transform: translate(-50%, -50%);
+
+}
+
+.project-label h2 {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.project-link {
+    display: flex;
+
+
+}
+
+.github-link {
+    padding: 16px;
+    text-align: center;
+   
+}
+
+.github-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.github-link a i:hover {
+    color: var(--secondary-color);
+    transition: 0.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.live-link {
+    padding: 16px;
+    text-align: center;
+    
+}
+
+.live-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.live-link a i:hover {
+    color: var(--secondary-color);
+    transition: 0.5s ease-in-out;
+    transform: rotate(360deg);
+
+}
