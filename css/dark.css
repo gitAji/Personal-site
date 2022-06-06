@@ -1,0 +1,43 @@
+
+/* dark mode css */
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --dark-color: #000000;
+    --white-color: #ffffff;
+    --shadow-color: #c2c1c182;
+    --primary-font: 'roboto', sans-serif;
+
+
+
+}
+
+.dark-mode .hero {
+    background-image: linear-gradient(to right, #9f9f9f, #000000);
+}
+
+.dark-mode .theme-switch-button-inner {
+    background-color: #364935;
+    transform: translateX(0.95rem);
+    transition: 1s ease-in-out;
+}
+
+.dark-mode button {
+    background-color: #000000;
+    transition: 0s ease-in-out;
+}
+.dark-mode .skills-carousel-item img {
+    filter:grayscale(100%);
+}
+.dark-mode .portfolio-image img{
+   filter: grayscale(1);
+    
+}
+
+.dark-mode footer {
+    background-color: var(--dark-color);
+    color: #ffffff;
+ 
+}
+
+/* dark mode ends */
