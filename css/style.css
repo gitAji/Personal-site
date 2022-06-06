@@ -146,10 +146,6 @@ button:hover {
     margin: 12px;
     top: 1rem;
     right: 1rem;
-    /* animation-name: hamburger;
-    animation-duration: 1s;
-    animation-timing-function: ease-out; */
-
 
 }
 
@@ -475,25 +471,6 @@ nav li a {
     }
 }
 
-.hero-image::before {
-    content: '';
-    -index: -1;
-    position: absolute;
-    inset: 10px;
-    border: 1px solid #fefefe13;
-    border-bottom: 0;
-    border-top: 0;
-    border-radius: 60%;
-    animation: spin 5s linear infinite;
-
-
-}
-
-@keyframes spin {
-    to {
-        transform: rotate(360deg);
-    }
-}
 
 .social-media-icons {
     display: flex;
