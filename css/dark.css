@@ -13,7 +13,7 @@
 }
 
 .dark-mode .hero {
-    background-image: linear-gradient(to right, #9f9f9f, #000000);
+    background-image: linear-gradient(to right, #3a3a3a, #000000);
 }
 
 .dark-mode .theme-switch-button-inner {
@@ -40,4 +40,11 @@
  
 }
 
+/* project section */
+.dark-mode .project-images img {
+  filter: grayscale(100%);
+}
+.header{
+    background: rgba(255, 255, 255, 0.518);
+}
 /* dark mode ends */

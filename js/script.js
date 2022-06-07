@@ -21,6 +21,15 @@ close.addEventListener("click",function(){
 }
 )
 
+const leftArrow=document.querySelector(".left-arrow");
+const rightArrow=document.querySelector(".right-arrow");
+
+leftArrow.addEventListener("click",function(){
+    console.log("clicked");
+ 
+});
+
+
 
 
 
