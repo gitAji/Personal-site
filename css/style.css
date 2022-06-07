@@ -992,8 +992,8 @@ i fab fa {
 
 .form-error {
     display: block;
-    margin: 12px auto;
-    color: var(--light-color);
+    margin: 0 0 12px 0;
+    color: var(--gray-color);
 }
 
 
