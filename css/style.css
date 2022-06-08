@@ -1086,6 +1086,9 @@ footer p {
         margin: 0 auto;
     
     }
+    .category-box ul {
+        width: 70%;
+    }
 
     .skills-wrapper {
         flex-direction: column;
