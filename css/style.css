@@ -30,8 +30,9 @@ a {
 ul li {
     list-style: none;
 }
+
 i .fa-solid {
-color:#000
+    color: #000
 }
 
 button {
@@ -152,8 +153,7 @@ button:hover {
 
 .menu-bar1,
 .menu-bar2,
-.menu-bar3
- {
+.menu-bar3 {
     width: 2.5rem;
     height: 0.1rem;
     background-color: var(--white-color);
@@ -176,7 +176,7 @@ nav {
     height: 100vh;
     padding: 50px;
     letter-spacing: 2px;
-    background-color:#364935;
+    background-color: #364935;
     z-index: 4;
     transition: 0.5s;
 }
@@ -191,7 +191,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
- 
+
 }
 
 nav li a {
@@ -205,21 +205,24 @@ nav li a {
     margin-top: 50px;
     margin-left: 25px;
 
-    
+
 }
- .nav-item .nav-link:hover{
+
+.nav-item .nav-link:hover {
     border-bottom: 1px solid var(--primary-color);
 }
-.nav-logo{
-    display:inline;
+
+.nav-logo {
+    display: inline;
     width: 100px;
-    height:100px;
+    height: 100px;
     transition: 0.5s;
     z-index: 10;
     padding: 20px;
     margin: 0 auto;
 }
-.nav-logo img{
+
+.nav-logo img {
     width: 100%;
     height: 100%;
 
@@ -227,18 +230,19 @@ nav li a {
 
 .close {
     position: fixed;
-     top: 10px;
-     right: 10px;
-     z-index:5;
-     padding: 10px 30px;
-     cursor: pointer;
-     transition: background-color 0.3s ease-in-out;
-     color: var(--white-color);
- }
- .close:hover{
-     background-color: var(--primary-color);
- }
- 
+    top: 10px;
+    right: 10px;
+    z-index: 5;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: var(--white-color);
+}
+
+.close:hover {
+    background-color: var(--primary-color);
+}
+
 .theme-switch {
     display: block;
     cursor: pointer;
@@ -308,12 +312,14 @@ nav li a {
     animation-timing-function: ease-out;
 
 }
-code{
-    font-size:26px;
-    color:rgb(140, 140, 140);
-    font-weight:italic; 
+
+code {
+    font-size: 26px;
+    color: rgb(140, 140, 140);
+    font-weight: italic;
     text-shadow: 0px 2px 4px rgba(4, 4, 4, 0.785);
 }
+
 .name {
     display: block;
     padding: 0 50px;
@@ -558,12 +564,11 @@ i fab fa {
 
 .chevron {
     display: block;
-
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid var(--white-color);
     position: absolute;
-    top: 90%;
+    bottom:50px;
     left: 50%;
     transform: scale3d(0.5, 0.5, 0.5);
     animation: move 3s ease-out infinite;
@@ -732,14 +737,11 @@ i fab fa {
 }
 
 .skills-carousel-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    overflow: hidden;
     margin: 10px;
     width: 100%;
     height: 100%;
-    max-height: 120px;
+    max-height: 150px;
     max-width: 100%;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -747,13 +749,12 @@ i fab fa {
 }
 
 .skills-carousel-item:hover {
-
     transform: scale(1.1);
 }
 
 .skills-carousel-item img {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
     object-fit: cover;
     opacity: .7;
 }
@@ -804,7 +805,7 @@ i fab fa {
     justify-content: center;
     align-items: center;
     padding: 15px 15px;
-    width: 33%;
+    width: 50%;
 }
 
 .category-box ul li {
@@ -826,6 +827,7 @@ i fab fa {
     background-color: var(--primary-color);
     color: var(--white-color);
 }
+
 .category-box button.active {
     background-color: var(--primary-color);
     color: var(--white-color);
@@ -948,7 +950,7 @@ i fab fa {
 [type="email"] {
     width: 100%;
     height: 40px;
-    border:none;
+    border: none;
     border-bottom: 1px solid var(--light-color);
     outline: none;
     padding: 10px;
@@ -967,7 +969,7 @@ i fab fa {
 .contact-form input[type="text-area"] {
     width: 100%;
     height: 100px;
-    border:none;
+    border: none;
     border-bottom: 1px solid var(--light-color);
     padding: 10px;
     margin: 12px auto;
@@ -980,7 +982,7 @@ i fab fa {
 .contact-form input[type="text-area"]::placeholder {
     font-size: 12px;
     color: var(--light-color);
-    
+
 }
 
 .contact-form label {
@@ -999,6 +1001,7 @@ i fab fa {
 
 /* footer section */
 .back-top {
+    display: flex;
     position: fixed;
     bottom: 2px;
     right: 12px;
@@ -1041,37 +1044,82 @@ footer p {
 
 /* footer section ends */
 /* media query section */
-@media screen and (max-width:768px){
-    body{
+@media screen and (max-width:768px) {
+    body {
         overflow-x: hidden;
     }
-.hero-content {
-    flex-direction: column;
-    width: 100%;
-    padding: 0;
+
+    .hero-content {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .hero-content-left {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .hero-content-right {
+        display: none;
+    }
+
+    .hero-content-left h1 {
+        font-size: 1.25rem;
+    }
+
+    .hero-content-left p {
+        font-size: .6rem;
+    }
+
+    .hero-content-left button {
+        font-size: .6rem;
+    }
+    .chevron {
+        bottom: 50px;
+    }
+
+    .category-box {
+        flex-wrap: nowrap;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .skills-wrapper {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .skills-wrapper h3 {
+        font-size: 1rem;
+    }
+
+    .portfolio-wrapper {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .back-top {
+
+        right: 0px;
+        bottom: 0px;
+
+    }
+    .contact-form input[type="text-area"]{
+        outline-width: 0ex;
+
+    }
+.footer-section{
+    background-image: none;
 }
-.hero-content-left {
-    width: 100%;
-    padding: 12px;
-}
-.hero-content-right {
-   display: none;
-}
-.hero-content-left h1 {
-    font-size: 1.25rem;
-}
-.hero-content-left p {
-    font-size: .6rem;
-}
-.hero-content-left button {
-    font-size: .6rem;
-}
-.category-box {
-    width:80%;
-   margin: 0 auto;
-}
-.contact-form {
-    width: 100%;
-    padding: 10px 20px;
+.footer p{
+    font-size: 10px;
 }
 }

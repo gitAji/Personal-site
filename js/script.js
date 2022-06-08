@@ -29,6 +29,28 @@ leftArrow.addEventListener("click",function(){
  
 });
 
+// back to top
+const btn=document.querySelector(".back-top");
+
+
+window.addEventListener("scroll",function(){
+    if(window.scrollY>300){
+        btn.style.display="block";
+    }
+    else{
+        btn.style.display="none";
+    }
+}
+)
+
+btn.addEventListener("click",function(){
+    window.scrollTo(0,0);
+}
+)
+
+
+
+
 
 
 
