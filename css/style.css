@@ -810,7 +810,6 @@ i fab fa {
 
 .category-box ul li {
     list-style: none;
-    width: 100%;
     padding: 0 20px;
     font-size: 16px;
 
@@ -1087,6 +1086,11 @@ footer p {
     }
     .category-box ul {
         width: 70%;
+    }
+    .category-box ul li {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
     }
 
     .skills-wrapper {
