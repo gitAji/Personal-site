@@ -1050,12 +1050,17 @@ footer p {
     .hero-content {
         flex-direction: column;
         width: 100%;
-        padding: 0;
+        padding: 20px 0;
     }
-
     .hero-content-left {
         width: 100%;
-        padding: 12px;
+        padding: 12px 0;
+    }
+    .name {
+      padding: 0ex;
+    } 
+    code {
+        padding:10px;
     }
 
     .hero-content-right {
@@ -1090,6 +1095,13 @@ footer p {
     .category-box ul li {
         width: 100%;
         margin: 0 auto;
+        padding: 0;
+    }
+    .skills{
+    
+        width: 100%;
+        height: auto;
+        margin: 0 12px;
         padding: 0;
     }
 
