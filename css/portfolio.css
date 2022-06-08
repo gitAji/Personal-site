@@ -296,6 +296,7 @@ h2 {
         padding: 20px;
         margin: 12px 0;
     }
+
     .project-details {
         flex-direction: column;
         width: 100%;
@@ -335,12 +336,12 @@ h2 {
     .mobile {
         position: absolute;
         top: 25%;
-        right:20%;
+        right: 20%;
     }
-       
-.project-links{
-width: 90%;
-}
+
+    .project-links {
+        width: 90%;
+    }
 
 
 }

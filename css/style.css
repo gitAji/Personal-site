@@ -568,7 +568,7 @@ i fab fa {
     border-right: 20px solid transparent;
     border-top: 20px solid var(--white-color);
     position: absolute;
-    bottom:50px;
+    bottom: 50px;
     left: 50%;
     transform: scale3d(0.5, 0.5, 0.5);
     animation: move 3s ease-out infinite;
@@ -805,7 +805,7 @@ i fab fa {
     justify-content: center;
     align-items: center;
     padding: 15px 15px;
-    
+
 }
 
 .category-box ul li {
@@ -1052,15 +1052,18 @@ footer p {
         width: 100%;
         padding: 20px 0;
     }
+
     .hero-content-left {
         width: 100%;
         padding: 12px 0;
     }
+
     .name {
-      padding: 0ex;
-    } 
+        padding: 0ex;
+    }
+
     code {
-        padding:10px;
+        padding: 10px;
     }
 
     .hero-content-right {
@@ -1078,6 +1081,7 @@ footer p {
     .hero-content-left button {
         font-size: .6rem;
     }
+
     .chevron {
         bottom: 50px;
     }
@@ -1087,18 +1091,21 @@ footer p {
         justify-content: center;
         width: 50%;
         margin: 0 auto;
-    
+
     }
+
     .category-box ul {
         width: 70%;
     }
+
     .category-box ul li {
         width: 100%;
         margin: 0 auto;
         padding: 0;
     }
-    .skills{
-    
+
+    .skills {
+
         width: 100%;
         height: auto;
         margin: 0 12px;
@@ -1115,10 +1122,12 @@ footer p {
     .skills-wrapper h3 {
         font-size: 1rem;
     }
+
     .skills-carousel {
         width: 100%;
         padding: 0;
     }
+
     .skills-carousel-item {
         width: 100%;
         padding: 0;
@@ -1142,17 +1151,21 @@ footer p {
         bottom: 0px;
 
     }
+
     .section-scroll-down {
         display: none;
     }
-    .contact-form input[type="text-area"]{
+
+    .contact-form input[type="text-area"] {
         outline-width: 0ex;
 
     }
-.footer-section{
-    background-image: none;
-}
-.footer p{
-    font-size: 10px;
-}
+
+    .footer-section {
+        background-image: none;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
 }
