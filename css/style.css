@@ -1081,8 +1081,10 @@ footer p {
 
     .category-box {
         flex-wrap: nowrap;
-        width: 100%;
+        justify-content: center;
+        width: 50%;
         margin: 0 auto;
+    
     }
 
     .skills-wrapper {
@@ -1093,6 +1095,14 @@ footer p {
 
     .skills-wrapper h3 {
         font-size: 1rem;
+    }
+    .skills-carousel {
+        width: 100%;
+        padding: 0;
+    }
+    .skills-carousel-item {
+        width: 100%;
+        padding: 0;
     }
 
     .portfolio-wrapper {
