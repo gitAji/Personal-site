@@ -326,11 +326,13 @@ h2 {
     .left {
         flex-direction: column;
         width: 100%;
+        margin: 12px 0;
     }
 
     .right {
         flex-direction: column;
         width: 100%;
+        margin: 12px 0;
     }
 
     .mobile {
