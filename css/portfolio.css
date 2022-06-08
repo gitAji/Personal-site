@@ -336,7 +336,11 @@ h2 {
         position: absolute;
         top: 25%;
         right:20%;
+    }
        
+.project-links{
+width: 90%;
+}
 
 
 }
