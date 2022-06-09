@@ -93,7 +93,7 @@ h2 {
 .requirements {
     padding: 20px;
     width: 40%;
-    box-shadow: 0px 0px 10px var(--primary-color);
+
 }
 
 .requirements h2 {
@@ -104,20 +104,23 @@ h2 {
 
 .requirements p {
     font-size: 1.2em;
-    line-height: 1.5em;
+    line-height: 1.75em;
     margin: 0;
-    padding: 0;
+    padding: 12px 0;
+    color: var(--primary-color);
 }
 
 .technologies {
     padding: 20px;
     width: 25%;
-    box-shadow: 0px 0px 10px var(--primary-color);
+    background-color: var(--box-color);
 }
 
 .technologies li {
     list-style: none;
-    margin-bottom: 12px;
+    margin-bottom: 2px;
+    padding: 12px 0;
+    color: var(--primary-color);
 }
 
 .technologies li:before {
@@ -139,12 +142,15 @@ h2 {
 .tools {
     padding: 20px;
     width: 25%;
-    box-shadow: 0px 0px 10px var(--primary-color);
+    box-shadow: 0px 0px 0px var(--primary-color);
+    background-color: var(--box-color);
 }
 
 .tools li {
     list-style: none;
-    margin-bottom: 12px;
+    margin-bottom: 2px;
+    padding: 12px 0;
+    color: var(--primary-color);
 }
 
 .tools li:before {
@@ -239,6 +245,7 @@ h2 {
     margin: 0 auto;
     margin-top: 2%;
     box-shadow: 0px 0px 6px var(--light-color);
+    background-color: var(--highlight);
 
 
 
@@ -267,6 +274,7 @@ h2 {
 .live-link {
     padding: 20px;
     text-align: center;
+
 }
 
 .live-link a i {
@@ -281,6 +289,73 @@ h2 {
     transform: rotate(360deg);
 
 }
+
+.project-more-details {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.project-requirements {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--box-color);
+}
+
+.project-requirements h2 {
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+.project-requirements li {
+    font-size: 1.2em;
+    line-height: 1.75em;
+    color: var(--primary-color);
+    padding: 12px 0;
+
+}
+
+.project-requirements li:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 12px;
+    margin-right: 10px;
+    background-color: var(--primary-color);
+    border-radius: 20%;
+}
+
+.deliverables {
+    width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--box-color);
+}
+
+.deliverables h2 {
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+.deliverables li {
+    font-size: 1.2em;
+    line-height: 1em;
+    padding: 12px 0;
+    color: var(--primary-color);
+}
+
+.deliverables li:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 12px;
+    margin-right: 10px;
+    background-color: var(--primary-color);
+    border-radius: 20%;
+}
+
 
 .project-bottom {
     display: flex;
@@ -303,18 +378,19 @@ h2 {
     }
 
     .requirements {
-        width: 100%;
-        margin: 12px 0;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .technologies {
-        width: 100%;
-        margin: 12px 0;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     .tools {
-        width: 100%;
-        margin: 12px 0;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .project-images {
@@ -345,5 +421,22 @@ h2 {
         width: 90%;
     }
 
+    .project-more-details {
+        flex-direction: column;
+        width: 100%;
+    }
 
+    .project-requirements {
+        width: 80%;
+        margin: 0 auto;
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+
+    .deliverables {
+        width: 80%;
+        margin: 0 auto;
+        padding: 12px;
+
+    }
 }
