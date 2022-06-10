@@ -18,13 +18,7 @@ close.addEventListener("click", function () {
     menu.style.display = "none";
 })
 
-const leftArrow = document.querySelector(".left-arrow");
-const rightArrow = document.querySelector(".right-arrow");
 
-leftArrow.addEventListener("click", function () {
-    console.log("clicked");
-
-});
 
 // back to top
 const btn = document.querySelector(".back-top");
@@ -83,6 +77,8 @@ function validateForm(e) {
         success.style.display = "block";
         success.style.color = "green";
         success.innerHTML = "Your message has been sent. Thank you!";
+        form.reset();
+        
     }
 }
 

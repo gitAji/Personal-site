@@ -27,8 +27,8 @@
     color: var(--white-color);  
     transition: 0s ease-in-out;
 }
-.dark-mode .hero-content-buttons {       
-    background-color: var(--primary-color);
+.dark-mode .hero-content-button {       
+    background-color: var(--white-color);
     color: var(--dark-color);
     transition: 0s ease-in-out;
 }
